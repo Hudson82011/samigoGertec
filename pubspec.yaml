@@ -1,0 +1,104 @@
+name: sammi_gov2
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.2+15
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.3
+  path_provider: ^2.0.15
+  android_path_provider: ^0.3.0
+  random_string: ^2.3.1
+  intl: ^0.18.0
+  quiver: ^3.0.1+1
+  flutter_bluetooth_serial: ^0.4.0
+  device_info_plus: 3.2.4
+  danfe: ^0.0.9
+  esc_pos_utils: ^1.1.0
+  string_validator: ^1.0.0
+  brasil_fields: ^1.13.1
+  flutter_barcode_scanner: ^2.0.0
+  flutter_downloader: ^1.11.1
+
+
+
+
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.9.2"
+
+flutter_icons:
+  android: "sammigo"
+  ios: false
+  image_path: "imagens/sammigo.png"
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - imagens/moeda1.png
+    - imagens/moeda1c.jpg
+    - imagens/moeda5.jpg
+    - imagens/moeda10.png
+    - imagens/moeda25.jpg
+    - imagens/moeda50.jpg
+    - imagens/nota5.jpg
+    - imagens/nota10.jpg
+    - imagens/nota20.jpg
+    - imagens/nota50.png
+    - imagens/nota100.jpg
+    - imagens/nota2.jpg
+    - imagens/semfoto.png
+    - imagens/imp.png
+    - imagens/back.png
+    - imagens/voltar.png
+    - imagens/money.png
+    - imagens/card.png
+    - imagens/sammigo 1.png
+    - imagens/tecno.png
+    - imagens/sitef.png
+    - imagens/sammigo.png
+    - imagens/goback.png
+    - imagens/scan.png
+    - imagens/cart.png
+    - imagens/cmd.png
+    - imagens/plus.png
+    - imagens/less.png
+    - imagens/rem.png
+    - imagens/esc.png
+    - imagens/refresh.png
+    - imagens/add.png
+    - imagens/cred.png
+    - imagens/debt.png
+    - imagens/dinheiro.png
+    - imagens/pix.png
+    - imagens/rmvcmd.png
+    - imagens/ball.png
+    - imagens/todos.png
+    - imagens/logoff.png
+    - imagens/home.png
+    - imagens/outros.png
+    - imagens/cards/
+    - assets/vectors/
