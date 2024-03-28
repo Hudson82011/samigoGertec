@@ -80,7 +80,10 @@ dependencies {
     implementation('com.journeyapps:zxing-android-embedded:3.4.0')
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
-    implementation files('libs/libgedi-1.16.8-gpos700-payment-release.aar')
+
+   // implementation files('libs/libgedi-1.16.8-gpos700-payment-release.aar')
+
+    implementation files('libs/libgedi-0.16.20-gpos720-payment-release.aar')
 
     implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
     implementation 'me.dm7.barcodescanner:zxing:1.9.8'

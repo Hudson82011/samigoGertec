@@ -11,6 +11,7 @@ import 'package:sammi_gov2/mapClasses/configClass.dart';
 
 import '../LocalInfo/EnterpriseConfig.dart';
 import '../Utils/LocalFiles.dart';
+import '../printer/printer.dart';
 import '../printer/printerGertec.dart';
 import 'configGeral.dart';
 import 'mainMenu.dart';
@@ -58,6 +59,10 @@ class _LoginState extends State<Login> {
 
 
   }
+
+
+
+
 
 
   login() async {
@@ -247,6 +252,7 @@ class _LoginState extends State<Login> {
 
   void initState() {
 
+
     LocalFiles().readData2('lastNotes').then((value){
       EnterpriseConfig.lastNotes=json.decode(value);
 
@@ -310,6 +316,7 @@ class _LoginState extends State<Login> {
               children: <Widget>[
                 GestureDetector(
                   onTap: (){
+                   
                     showDialog(
                         context: context,
                         builder: (BuildContext context) {

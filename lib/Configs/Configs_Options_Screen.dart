@@ -5,6 +5,7 @@ import 'package:sammi_gov2/Configs/rf/Sangria_Screen.dart';
 import 'package:sammi_gov2/Configs/rf/Suprimento_Screen.dart';
 
 import '../Size.dart';
+import '../pages/CaixaMobile/tef/TefPage.dart';
 import 'Canc_Cup_Screen.dart';
 
 
@@ -70,7 +71,12 @@ class _ConfigOptionsScreenState extends State<ConfigOptionsScreen> {
                         padding: EdgeInsets.only(top: _size.getHeight(context) * 0.03)),
                     ElevatedButton(
                       onPressed: () {
-                       // Elgin().sendSitefParams(Acao.CONFIGURACAO, "", "1", FormaPagamento.DEBITO, context);
+                        Elgin().sendSitefParams(
+                            Acao.CONFIGURACAO,
+                            "0",
+                            "1",
+                            FormaPagamento.DEBITO,
+                            context);
 
                       },
                       child: Row(

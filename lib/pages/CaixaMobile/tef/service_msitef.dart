@@ -93,6 +93,8 @@ class MSitefService {
     mapParam['valor'] = valor;
     mapParam["comExterna"] = EnterpriseConfig.comExterna;
     mapParam['chaveExterna'] =EnterpriseConfig.vpn;
+    mapParam["empresaSitef"] = EnterpriseConfig.empresaSitef;
+    mapParam["CNPJ_CPF"] = EnterpriseConfig.cnpj;
 
 
     String retorno = await _sendFunctionToAndroid(mapParam);
@@ -112,6 +114,8 @@ class MSitefService {
     mapParam['valor'] = valor;
     mapParam["comExterna"] = EnterpriseConfig.comExterna;
     mapParam['chaveExterna'] =EnterpriseConfig.vpn;
+    mapParam["empresaSitef"] = EnterpriseConfig.empresaSitef;
+    mapParam["CNPJ_CPF"] = EnterpriseConfig.cnpj;
 
 
     String retorno = await _sendFunctionToAndroid(mapParam);
