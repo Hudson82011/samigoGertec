@@ -15,7 +15,7 @@ ADDED from C:\Users\hudso\Documents\projetos\sammi_goV2gertec\android\app\src\ma
 INJECTED from C:\Users\hudso\Documents\projetos\sammi_goV2gertec\android\app\src\main\AndroidManifest.xml:1:1-95:12
 INJECTED from C:\Users\hudso\Documents\projetos\sammi_goV2gertec\android\app\src\main\AndroidManifest.xml:1:1-95:12
 INJECTED from C:\Users\hudso\Documents\projetos\sammi_goV2gertec\android\app\src\main\AndroidManifest.xml:1:1-95:12
-MERGED from [libgedi-0.16.20-gpos720-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\6741828ac555d4f44b034de6642b6ee5\transformed\jetified-libgedi-0.16.20-gpos720-payment-release\AndroidManifest.xml:2:1-17:12
+MERGED from [libgedi-1.16.8-gpos700-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\12e1e2838681714dca8b13f0c4bdb450\transformed\jetified-libgedi-1.16.8-gpos700-payment-release\AndroidManifest.xml:2:1-17:12
 MERGED from [:flutter_barcode_scanner] C:\Users\hudso\Documents\projetos\sammi_goV2gertec\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-21:12
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\hudso\Documents\projetos\sammi_goV2gertec\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_bluetooth_serial] C:\Users\hudso\Documents\projetos\sammi_goV2gertec\build\flutter_bluetooth_serial\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-12:12
@@ -180,8 +180,8 @@ MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\hudso\.gradle\caches\tra
 		ADDED from C:\Users\hudso\Documents\projetos\sammi_goV2gertec\android\app\src\main\AndroidManifest.xml:28:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from C:\Users\hudso\Documents\projetos\sammi_goV2gertec\android\app\src\main\AndroidManifest.xml:29:5-79
-MERGED from [libgedi-0.16.20-gpos720-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\6741828ac555d4f44b034de6642b6ee5\transformed\jetified-libgedi-0.16.20-gpos720-payment-release\AndroidManifest.xml:12:5-80
-MERGED from [libgedi-0.16.20-gpos720-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\6741828ac555d4f44b034de6642b6ee5\transformed\jetified-libgedi-0.16.20-gpos720-payment-release\AndroidManifest.xml:12:5-80
+MERGED from [libgedi-1.16.8-gpos700-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\12e1e2838681714dca8b13f0c4bdb450\transformed\jetified-libgedi-1.16.8-gpos700-payment-release\AndroidManifest.xml:12:5-80
+MERGED from [libgedi-1.16.8-gpos700-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\12e1e2838681714dca8b13f0c4bdb450\transformed\jetified-libgedi-1.16.8-gpos700-payment-release\AndroidManifest.xml:12:5-80
 	android:name
 		ADDED from C:\Users\hudso\Documents\projetos\sammi_goV2gertec\android\app\src\main\AndroidManifest.xml:29:22-77
 uses-feature#android.hardware.nfc
@@ -316,8 +316,8 @@ uses-sdk
 INJECTED from C:\Users\hudso\Documents\projetos\sammi_goV2gertec\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\hudso\Documents\projetos\sammi_goV2gertec\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\hudso\Documents\projetos\sammi_goV2gertec\android\app\src\main\AndroidManifest.xml
-MERGED from [libgedi-0.16.20-gpos720-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\6741828ac555d4f44b034de6642b6ee5\transformed\jetified-libgedi-0.16.20-gpos720-payment-release\AndroidManifest.xml:8:5-10:41
-MERGED from [libgedi-0.16.20-gpos720-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\6741828ac555d4f44b034de6642b6ee5\transformed\jetified-libgedi-0.16.20-gpos720-payment-release\AndroidManifest.xml:8:5-10:41
+MERGED from [libgedi-1.16.8-gpos700-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\12e1e2838681714dca8b13f0c4bdb450\transformed\jetified-libgedi-1.16.8-gpos700-payment-release\AndroidManifest.xml:8:5-10:41
+MERGED from [libgedi-1.16.8-gpos700-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\12e1e2838681714dca8b13f0c4bdb450\transformed\jetified-libgedi-1.16.8-gpos700-payment-release\AndroidManifest.xml:8:5-10:41
 MERGED from [:flutter_barcode_scanner] C:\Users\hudso\Documents\projetos\sammi_goV2gertec\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_barcode_scanner] C:\Users\hudso\Documents\projetos\sammi_goV2gertec\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\hudso\Documents\projetos\sammi_goV2gertec\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
@@ -477,11 +477,11 @@ ADDED from C:\Users\hudso\Documents\projetos\sammi_goV2gertec\android\app\src\ma
 	android:name
 		ADDED from C:\Users\hudso\Documents\projetos\sammi_goV2gertec\android\app\src\main\AndroidManifest.xml:52:17-67
 uses-permission#android.permission.SET_TIME
-ADDED from [libgedi-0.16.20-gpos720-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\6741828ac555d4f44b034de6642b6ee5\transformed\jetified-libgedi-0.16.20-gpos720-payment-release\AndroidManifest.xml:13:5-15:47
+ADDED from [libgedi-1.16.8-gpos700-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\12e1e2838681714dca8b13f0c4bdb450\transformed\jetified-libgedi-1.16.8-gpos700-payment-release\AndroidManifest.xml:13:5-15:47
 	tools:ignore
-		ADDED from [libgedi-0.16.20-gpos720-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\6741828ac555d4f44b034de6642b6ee5\transformed\jetified-libgedi-0.16.20-gpos720-payment-release\AndroidManifest.xml:15:9-44
+		ADDED from [libgedi-1.16.8-gpos700-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\12e1e2838681714dca8b13f0c4bdb450\transformed\jetified-libgedi-1.16.8-gpos700-payment-release\AndroidManifest.xml:15:9-44
 	android:name
-		ADDED from [libgedi-0.16.20-gpos720-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\6741828ac555d4f44b034de6642b6ee5\transformed\jetified-libgedi-0.16.20-gpos720-payment-release\AndroidManifest.xml:14:9-51
+		ADDED from [libgedi-1.16.8-gpos700-payment-release.aar] C:\Users\hudso\.gradle\caches\transforms-3\12e1e2838681714dca8b13f0c4bdb450\transformed\jetified-libgedi-1.16.8-gpos700-payment-release\AndroidManifest.xml:14:9-51
 uses-feature#android.hardware.camera
 ADDED from [:flutter_barcode_scanner] C:\Users\hudso\Documents\projetos\sammi_goV2gertec\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-60
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\hudso\.gradle\caches\transforms-3\7bb519d2c4a7851ca9878fbb355607bd\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36

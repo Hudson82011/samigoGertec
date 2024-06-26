@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
+import 'package:intl/intl.dart';
 import 'package:string_validator/string_validator.dart';
 import 'package:danfe/danfe.dart';
 import 'package:esc_pos_utils/esc_pos_utils.dart';
@@ -307,25 +308,33 @@ String nota="";
 
       String bar='----------------------------';
 
-      double of=5;
-      print(of.toStringAsFixed(3));
-
       for(int x=0;x<double.parse(element.VLR_QTDE);x++){
-        PrinterService().sendPrinterText(text:'Padaria tecnopam\n',
-          fontSize: 0,align: "Centralizado",font: 'FONT A'
+        _printer.impressaoDeTexto(texto:EnterpriseConfig.cnpj,
+            fontSize: 25,fontFamily: "DEFAULT",selectedOptions: [false,false,false],alinhar: "CENTER",context: context
         );
-        PrinterService().sendPrinterText(text:'\n'+element.DESCRICAO+'\n'+'R\$'+double.parse(element.VLR_PRECO).toStringAsFixed(2)+'\n',
-             fontSize: 1,align: "Centralizado",font: 'FONT C',isBold: true
+        _printer.impressaoDeTexto(texto:DateFormat("dd/MM/yyyy HH:mm").format(DateTime.now()),
+            fontSize: 20,fontFamily: "DEFAULT",selectedOptions: [false,false,false],alinhar: "CENTER",context: context
         );
-        PrinterService().sendPrinterBarCode(text:element.COD_PROD, height:120,width:4,barCodeType: "CODE 93",align: "Centralizado" );
 
-        PrinterService().sendPrinterText(text:'\n'+bar+'\n',
-            fontSize: 1,align: "Centralizado",isBold: true
+        _printer.impressaoDeTexto(texto:'\n'+element.COD_PROD.padLeft(6, '0')+"\n"+element.DESCRICAO,
+            fontSize: 30,fontFamily: "DEFAULT",selectedOptions: [false,false,false],alinhar: "CENTER",context: context
         );
+        _printer.impressaoDeCodigoDeBarra(texto:"|"+(CartInfo.prods.indexOf(element)+1).toString() +"|"+element.COD_PROD.padLeft(6, '0')+"|"+EnterpriseConfig.cnpj+"|"+nota+"|"+(double.parse(element.VLR_PRECO)*100).toStringAsFixed(0)+"|",
+            height:260 ,width: 260,barCode: "QR_CODE",context: context
+        );
+        _printer.impressaoDeTexto(texto:'R\$'+double.parse(element.VLR_PRECO).toStringAsFixed(2),
+            fontSize: 30,fontFamily: "DEFAULT",selectedOptions: [false,false,false],alinhar: "CENTER",context: context
+        );
+        _printer.impressaoDeTexto(texto:'\n'+bar+'\n',
+            fontSize: 30,fontFamily: "DEFAULT",selectedOptions: [true,false,false],alinhar: "CENTER",context: context
+        );
+
+
       }
+      _printer.finalizarImpressao();
 
     });
-    PrinterService().jumpLine(3);
+
 
 
 
@@ -813,7 +822,7 @@ String nota="";
                             )
                         )),
                         Padding(padding: EdgeInsets.symmetric(vertical: 10)),
-                      /*  ElevatedButton(
+                        ElevatedButton(
                             style: ButtonStyle(
                                 backgroundColor: MaterialStateProperty.all(Color.fromRGBO(70, 26, 26,1))
                             ),
@@ -828,7 +837,7 @@ String nota="";
                                   fontSize: 22
                               ),),
                             )
-                        )),*/
+                        )),
                         Padding(padding: EdgeInsets.symmetric(vertical: 10)),
                         ElevatedButton(
                             style: ButtonStyle(
